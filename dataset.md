@@ -43,27 +43,27 @@
 
 **Range** : 21 June, 2025 to 24 July, 2025
 
-## Dataset 5 - Day Ahead Hourly Ontario Zonal Energy Price Report
+## Dataset 6 - Day Ahead Hourly Ontario Zonal Energy Price Report
 **Description** : This script streamlines the collection and analysis of electricity adequacy data from multiple IESO XML reports. By automatically downloading each report, extracting important metrics such as delivery date, hourly total supply, and Ontario demand, and compiling the results into a single Excel file, it provides a convenient and efficient way to monitor and analyze power system trends over time. The resulting spreadsheet enables users to easily visualize and interpret supply and demand patterns, supporting informed decision-making and reporting for Ontario’s electricity grid.
 
 **Range** : 15 June, 2025 to 21 June, 2025
 
-## Dataset 6 - Generator Output and Capability
+## Dataset 7 - Generator Output and Capability
 **Description** : This dataset provides detailed records of generator output and capability across Ontario’s power system. For each generator, it includes hourly or interval-based measurements of actual electricity production, as well as the generator’s available and maximum capability. By capturing both real-time output and operational limits, this dataset enables grid operators, planners, and analysts to assess generation performance, monitor system adequacy, and support informed decision-making for resource planning and reliability management. The data is essential for understanding how Ontario’s generation fleet responds to system needs and for identifying opportunities to optimize grid operations.
 
 **Range** : 23 May, 2025 to 22 June, 2025
 
-## Dataset 7 - Intertie Flows
+## Dataset 8 - Intertie Flows
 **Description** : This report provides a comprehensive overview of scheduled and actual power flows across interties within the electric grid. It details the planned (scheduled) energy transfers between interconnected systems and compares them with the real-time (actual) flows, offering valuable insights into grid operations, reliability, and efficiency. The report is essential for system operators, planners, and stakeholders to monitor intertie performance, identify discrepancies, and support informed decision-making for grid management and optimization.
 
 **Range** : 24 May, 2025 to 21 June, 2025
 
-## Dataset 8 - Variable Generation Forecast
+## Dataset 9 - Variable Generation Forecast
 **Description** : This XML dataset provides a detailed forecast of variable electricity generation—such as wind and solar—across Ontario’s intertie connections for a specific date and intertie zone. It includes hourly schedules for imports and exports, as well as interval-by-interval measurements of actual power flow. By enabling direct comparison between scheduled and real-time intertie transactions, the report supports grid operators and analysts in monitoring the performance and variability of renewable generation, assessing system flexibility, and making informed decisions to ensure reliable and efficient cross-border electricity exchanges.
 
 **Range** : 23 May, 2025 to 22 June, 2025
 
-## Dataset 9 - Surplus Baseload Generation (SBG) Forecast Report
+## Dataset 10 - Surplus Baseload Generation (SBG) Forecast Report
 **Description** : This XML dataset provides a comprehensive forecast of Surplus Baseload Generation (SBG) conditions for a specific date and intertie zone. It includes detailed hourly schedules for imports and exports, as well as interval-by-interval records of actual power flows across intertie connections. By comparing scheduled and real-time flows, the report enables grid operators and analysts to monitor SBG events, assess system flexibility, and make informed decisions to maintain grid reliability and efficiency. This dataset is essential for understanding cross-border electricity exchanges and managing surplus generation within the Ontario power system.
 
 **Range** : 02 June, 2025 to 21 June, 2025

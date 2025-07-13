@@ -7,11 +7,11 @@
 <DocConfidentiality>
 <DocConfClass>PUB</DocConfClass>
 </DocConfidentiality>
-<CreatedAt>2025-06-23T06:22:57</CreatedAt>
+<CreatedAt>2025-07-12T06:22:47</CreatedAt>
 </DocHeader>
 <DocBody>
-<OutageRangeStart>2025-06-23T00:00:00</OutageRangeStart>
-<OutageRangeEnd>2025-06-23T23:59:59</OutageRangeEnd>
+<OutageRangeStart>2025-07-12T00:00:00</OutageRangeStart>
+<OutageRangeEnd>2025-07-12T23:59:59</OutageRangeEnd>
 <OutageRequest>
 <OutageID>1-00008640</OutageID>
 <PlannedStart>2015-03-02T08:21:00</PlannedStart>
@@ -474,7 +474,7 @@
 <OutageRequest>
 <OutageID>1-00225743</OutageID>
 <PlannedStart>2023-05-01T08:00:00</PlannedStart>
-<PlannedEnd>2025-07-11T16:00:00</PlannedEnd>
+<PlannedEnd>2025-09-30T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -495,7 +495,7 @@
 <OutageRequest>
 <OutageID>1-00230419</OutageID>
 <PlannedStart>2023-07-11T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-30T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-16T16:00:00</PlannedEnd>
 <Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -526,21 +526,6 @@
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00232559</OutageID>
-<PlannedStart>2023-07-15T16:13:00</PlannedStart>
-<PlannedEnd>2025-12-31T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ARMITAGE TS SC1</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -613,21 +598,6 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00244428</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>S6F.FAXMA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Immediate</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00249436</OutageID>
 <PlannedStart>2024-12-11T08:00:00</PlannedStart>
 <PlannedEnd>2025-09-09T08:00:00</PlannedEnd>
@@ -689,75 +659,6 @@
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
 <OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00252482</OutageID>
-<PlannedStart>2025-06-01T07:30:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH LSO JCT L7S-M18</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS 61-L7S</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS 61L7S-MSO1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS DTL7</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS KTL7</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS SC1</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS T1-TL7</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEAFORTH TS UFLS1</EquipmentName>
-<EquipmentType>UFLS</EquipmentType>
-<EquipmentVoltage>NULL</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ST. MARYS TS BY</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>12 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00252577</OutageID>
@@ -835,21 +736,6 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00255328</OutageID>
-<PlannedStart>2024-05-28T06:47:00</PlannedStart>
-<PlannedEnd>2025-11-26T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>TOMKEN TS SC3</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00256496</OutageID>
 <PlannedStart>2024-09-28T04:15:00</PlannedStart>
 <PlannedEnd>2025-09-13T04:00:00</PlannedEnd>
@@ -873,7 +759,7 @@
 <OutageRequest>
 <OutageID>1-00257104</OutageID>
 <PlannedStart>2024-06-20T18:00:00</PlannedStart>
-<PlannedEnd>2025-07-11T16:00:00</PlannedEnd>
+<PlannedEnd>2025-12-01T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -901,9 +787,24 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
+<OutageID>1-00259324</OutageID>
+<PlannedStart>2025-07-06T06:30:00</PlannedStart>
+<PlannedEnd>2025-07-18T15:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BECK 2 TS TL26L27</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>2 Day(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
 <OutageID>1-00259554</OutageID>
 <PlannedStart>2024-09-09T02:30:00</PlannedStart>
-<PlannedEnd>2025-06-27T17:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T17:00:00</PlannedEnd>
 <Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -933,7 +834,7 @@
 <OutageRequest>
 <OutageID>1-00262203</OutageID>
 <PlannedStart>2024-09-23T02:45:00</PlannedStart>
-<PlannedEnd>2025-06-27T17:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T17:00:00</PlannedEnd>
 <Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -961,51 +862,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00263695</OutageID>
-<PlannedStart>2024-09-08T18:00:00</PlannedStart>
-<PlannedEnd>2025-06-30T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>EAR FALLS TS T5</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>EAR FALLS TS T5-W45</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>EAR FALLS TS T5SP</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00264268</OutageID>
-<PlannedStart>2024-09-07T15:50:00</PlannedStart>
-<PlannedEnd>2025-08-08T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BRAMALEA TS SC3</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00264430</OutageID>
 <PlannedStart>2025-01-12T08:00:00</PlannedStart>
-<PlannedEnd>2025-07-15T08:00:00</PlannedEnd>
+<PlannedEnd>2025-08-23T08:00:00</PlannedEnd>
 <Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -1026,7 +885,7 @@
 <OutageRequest>
 <OutageID>1-00265966</OutageID>
 <PlannedStart>2024-09-17T06:38:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:00:00</PlannedEnd>
+<PlannedEnd>2025-08-29T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -1066,150 +925,6 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00266123</OutageID>
-<PlannedStart>2025-06-23T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>DOBBIN TS AL27</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>BF PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00266124</OutageID>
-<PlannedStart>2025-06-23T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>DOBBIN TS AL27</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00266172</OutageID>
-<PlannedStart>2025-06-18T08:45:00</PlannedStart>
-<PlannedEnd>2025-07-11T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CLAIREVILLE TS H2L74</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CLAIREVILLE TS HT13L74</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>REXDALE TS T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>REXDALE TS T1E</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>RICHVIEW DESN TS QZ</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>RICHVIEW DESN TS T5</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>RICHVIEW TS A1L74</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>RICHVIEW TS L4L74</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>V74R.RIXRI</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>V74R.RIXWE</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>V74R.WEXCL</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>V74R.WEXRE</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00266513</OutageID>
-<PlannedStart>2025-06-22T06:15:00</PlannedStart>
-<PlannedEnd>2025-07-11T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>EAST LAKE ST. CLAIR WF JCT 300C29C-MSO1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>KENT TS 5T2-C29C</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>KENT TS T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>NORTH KENT 1 JCT 479C29C-MSO1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>12 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00266654</OutageID>
 <PlannedStart>2025-01-13T07:00:00</PlannedStart>
 <PlannedEnd>2025-09-01T17:00:00</PlannedEnd>
@@ -1225,10 +940,109 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
+<OutageID>1-00266740</OutageID>
+<PlannedStart>2025-07-12T18:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T22:30:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>B2.B2XB2</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.BRXBJ</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.TOXBJ</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.TOXTO</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.WDXW2</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.WDXWJ</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.WJXTJ</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B2.WOXBR</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BRANT TS DB2</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>COMMERCE WAY TS T2</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>COMMERCE WAY TS T2Y</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KARN TS L7L12</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KARN TS T2L12</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TOYOTA WOODSTOCK TS T1</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>WOODSTOCK TS T1</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
 <OutageID>1-00267008</OutageID>
 <PlannedStart>2025-04-11T12:15:00</PlannedStart>
-<PlannedEnd>2025-07-04T15:00:00</PlannedEnd>
-<Priority>P</Priority>
+<PlannedEnd>2025-07-24T23:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>BOWMANVILLE SS H4L543</EquipmentName>
@@ -1237,69 +1051,6 @@
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00267201</OutageID>
-<PlannedStart>2025-06-09T02:45:00</PlannedStart>
-<PlannedEnd>2025-08-15T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ERINDALE TS T2-R14T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ERINDALE TS T4-R14T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>R14T.ERXER</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>R14T.ERXTO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>R14T.ERXTR</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>R14T.TOXRI</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>RICHVIEW TS 88-R14T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>TOMKEN TS T2-R14T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>TRAFALGAR TS 31-R14T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>18 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -1316,96 +1067,6 @@
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
 <OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00267383</OutageID>
-<PlannedStart>2025-06-23T07:30:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>V43N: NOVA SS x SCOTT TS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>3 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00267413</OutageID>
-<PlannedStart>2025-06-23T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-30T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>WINDSOR WALKER TS T3</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WINDSOR WALKER TS T3-Z7E</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>10 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00267459</OutageID>
-<PlannedStart>2025-06-23T07:45:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ENFIELD TS T6</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ENFIELD TS T6-K2</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ENFIELD TS T6Y</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00267474</OutageID>
-<PlannedStart>2025-06-22T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BRUCE A TS HT4_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRUCE A TS OLDHT4L502</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRUCE A TS OLDT4A</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00267624</OutageID>
@@ -1429,43 +1090,10 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00267755</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>HORNING TS 4T3-M28B</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HORNING TS T3</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HORNING TS T3E</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HORNING TS T3Y</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00267759</OutageID>
 <PlannedStart>2025-06-09T11:00:00</PlannedStart>
-<PlannedEnd>2025-10-31T16:00:00</PlannedEnd>
-<Priority>P</Priority>
+<PlannedEnd>2025-11-25T16:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>LENNOX TS PBUS-TEMP3</EquipmentName>
@@ -1480,6 +1108,57 @@
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00267875</OutageID>
+<PlannedStart>2025-07-06T07:00:00</PlannedStart>
+<PlannedEnd>2025-07-25T17:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>LENNOX TS 12-X21</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>NAPANEE TS BY</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>NAPANEE TS T1-X21</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PICTON TS T1-X21</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>X21.GRXLE</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>X21.GRXNA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>X21.GRXPI</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -1516,7 +1195,7 @@
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>13 Day(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00268031</OutageID>
@@ -1549,90 +1228,24 @@
 <OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00268566</OutageID>
-<PlannedStart>2025-06-19T06:30:00</PlannedStart>
-<PlannedEnd>2025-06-25T14:00:00</PlannedEnd>
+<OutageID>1-00270822</OutageID>
+<PlannedStart>2025-07-10T07:00:00</PlannedStart>
+<PlannedEnd>2025-07-14T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>HINCHEY TS T4</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
+<EquipmentName>TILBURY JCT 2316TIL-647</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>HINCHEY TS T4-A1</EquipmentName>
+<EquipmentName>TILBURY JCT TIL-2</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HINCHEY TS T4Z</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00269001</OutageID>
-<PlannedStart>2025-06-23T07:15:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>TERAULEY TS T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>TERAULEY TS T2-D2</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>5 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00270160</OutageID>
-<PlannedStart>2025-06-17T11:45:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS JL541</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS JL543</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS JL550</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS JL552</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS J_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -1651,24 +1264,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00271224</OutageID>
-<PlannedStart>2024-11-19T09:30:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS SC2A13</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00271239</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -1688,8 +1286,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00271241</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -1753,123 +1351,30 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00271437</OutageID>
-<PlannedStart>2025-06-16T02:45:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
-<Priority>FE</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>MIDHURST TS T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>MIDHURST TS T1-M6E</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>3 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00271472</OutageID>
-<PlannedStart>2025-06-01T06:15:00</PlannedStart>
-<PlannedEnd>2025-07-11T17:00:00</PlannedEnd>
+<OutageID>1-00271469</OutageID>
+<PlannedStart>2025-07-07T09:30:00</PlannedStart>
+<PlannedEnd>2025-07-24T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>B5.ABXTH</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.BIXWA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.JAXAB</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.JAXTB</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.STXJA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.WAXFO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.WAXST</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BIRCH TS 17-Q5B</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ERCO JCT Q5B-1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>FORT WILLIAM TS T6</EquipmentName>
+<EquipmentName>KAPUSKASING TS T5</EquipmentName>
 <EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>FORT WILLIAM TS T6-Q5B</EquipmentName>
+<EquipmentName>KAPUSKASING TS T5-K38S</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>JAMES STREET JCT 55B5-30</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>THUNDER BAY SS 30-B5</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>THUNDER BAY SS 30B5-B14</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>5 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00271610</OutageID>
-<PlannedStart>2025-06-23T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T07:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -2019,8 +1524,8 @@
 <OutageRequest>
 <OutageID>1-00273479</OutageID>
 <PlannedStart>2025-01-13T07:00:00</PlannedStart>
-<PlannedEnd>2025-07-24T23:00:00</PlannedEnd>
-<Priority>P</Priority>
+<PlannedEnd>2025-12-02T08:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>BOWMANVILLE SS H4A</EquipmentName>
@@ -2046,7 +1551,7 @@
 <OutageRequest>
 <OutageID>1-00273798</OutageID>
 <PlannedStart>2024-12-13T19:08:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:00:00</PlannedEnd>
+<PlannedEnd>2025-08-29T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -2065,9 +1570,126 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
+<OutageID>1-00274211</OutageID>
+<PlannedStart>2025-07-12T07:30:00</PlannedStart>
+<PlannedEnd>2025-07-12T17:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>DOME SITE JCT 30P7G-01</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>DOME SITE JCT P7G-3001</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>GOLD CENTRE JCT P7G-02</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>HOYLE DS 26CS1-L</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>HOYLE POND SITE JCT P7G-TEMP</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.DOXPO</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.ECXKC</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.ECXKI</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.ECXP7</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.HOXHO</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.HOXPA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.HPXEC</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.KIXHO</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.KIXKM</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.KIXKZ</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.P7XDO</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>P7G.P7XPA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS 30-P7G</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
 <OutageID>1-00274314</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -2095,321 +1717,33 @@
 <ConstraintType>HOLDOFF</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>Immediate</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00274590</OutageID>
-<PlannedStart>2025-06-20T08:00:00</PlannedStart>
-<PlannedEnd>2025-07-04T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>P13T.TIXPO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS 30-P13T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS 30T7-H1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS H1L501</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS H1L502</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS H1_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS HT7D1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS HT7D2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS HT7_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS K1K2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS K2K3</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS K2_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS K3K4</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T3-H</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T3-K</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T6</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T6-H2</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T6-K4</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T7</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T7-HT7</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>TIMMINS TS 19-P13T</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>TIMMINS TS K2-P3</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>12 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00274591</OutageID>
-<PlannedStart>2025-06-23T10:00:00</PlannedStart>
-<PlannedEnd>2025-06-26T16:00:00</PlannedEnd>
+<OutageID>1-00275394</OutageID>
+<PlannedStart>2025-06-29T21:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T06:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>PORCUPINE TS 30T7-H1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T7</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>PORCUPINE TS T7-HT7</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00274716</OutageID>
-<PlannedStart>2025-06-01T09:15:00</PlannedStart>
-<PlannedEnd>2025-07-31T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>GREELY JCT 123M1R-21</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M1R.GRXRU</EquipmentName>
+<EquipmentName>A5A.ALXMI</EquipmentName>
 <EquipmentType>LineSection</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>RUSSELL DS M1R-6</EquipmentName>
+<EquipmentName>ALEXANDER SS 4-A5A</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>RUSSELL DS M1R-71</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00274858</OutageID>
-<PlannedStart>2025-06-01T07:00:00</PlannedStart>
-<PlannedEnd>2025-07-05T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BROCKVILLE TS L2M-A</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L1MB.LUXLA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L1MB.LUXMO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L1MB.MOXMO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>MORRISBURG JCT 68L1MB-4</EquipmentName>
+<EquipmentName>MINNOVA JCT A5A-5</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>MORRISBURG TS T3</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>MORRISBURG TS T3-L1MB</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>MORRISBURG TS T3J</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ST. LAWRENCE TS 49-L1MB</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00275170</OutageID>
-<PlannedStart>2025-06-23T09:15:00</PlannedStart>
-<PlannedEnd>2025-07-10T09:15:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>T24C: CLARINGTON TS x CHERRYWOOD TS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00275172</OutageID>
-<PlannedStart>2025-06-23T09:15:00</PlannedStart>
-<PlannedEnd>2025-06-25T12:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>T24C: CLARINGTON TS x CHERRYWOOD TS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00275963</OutageID>
-<PlannedStart>2025-05-12T03:30:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BRAMALEA TS 74T5-V41H</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRAMALEA TS T5</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>36 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>7 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -2446,39 +1780,129 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00276149</OutageID>
-<PlannedStart>2025-06-23T09:45:00</PlannedStart>
-<PlannedEnd>2025-06-23T14:00:00</PlannedEnd>
+<OutageID>1-00276162</OutageID>
+<PlannedStart>2025-07-02T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-31T12:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>BIRMINGHAM TS T1</EquipmentName>
+<EquipmentName>OAKVILLE TS 2 SS6</EquipmentName>
 <EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BIRMINGHAM TS T1-A2</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00277028</OutageID>
-<PlannedStart>2025-06-20T16:45:00</PlannedStart>
-<PlannedEnd>2025-07-02T16:46:00</PlannedEnd>
+<OutageID>1-00276383</OutageID>
+<PlannedStart>2025-01-29T15:00:00</PlannedStart>
+<PlannedEnd>2025-07-16T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>LAKESHORE TS SC22</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00276899</OutageID>
+<PlannedStart>2025-07-02T07:00:00</PlannedStart>
+<PlannedEnd>2025-08-05T17:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS 25-Q25BM</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS K2L25</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
 <EquipmentRequested>
 <EquipmentName>MIDDLEPORT TS L5L25</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
 <EquipmentVoltage>230 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>16 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00277016</OutageID>
+<PlannedStart>2025-07-02T07:00:00</PlannedStart>
+<PlannedEnd>2025-08-20T17:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS K2L25</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L5L25</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00277051</OutageID>
+<PlannedStart>2025-06-27T07:00:00</PlannedStart>
+<PlannedEnd>2025-08-14T18:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>REXDALE TS SC3</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00277081</OutageID>
+<PlannedStart>2025-06-27T12:00:00</PlannedStart>
+<PlannedEnd>2025-07-31T10:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS 25-K40M</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L28L40</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L33L40</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L40_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -2524,24 +1948,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00278015</OutageID>
-<PlannedStart>2025-06-01T07:30:00</PlannedStart>
-<PlannedEnd>2025-06-25T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>L7S: SEAFORTH TS x ST. MARYS TS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00278632</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -2555,8 +1964,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00278633</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -2614,24 +2023,9 @@
 <OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00278901</OutageID>
-<PlannedStart>2025-02-28T19:45:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS H2H3</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00278919</OutageID>
 <PlannedStart>2025-03-02T15:00:00</PlannedStart>
-<PlannedEnd>2025-08-29T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-13T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -2671,21 +2065,6 @@
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00279076</OutageID>
-<PlannedStart>2025-03-24T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>X27A.ALXHA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -2738,8 +2117,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00279331</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -2759,8 +2138,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00280013</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -2860,37 +2239,97 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00280422</OutageID>
-<PlannedStart>2025-06-23T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
+<OutageID>1-00280239</OutageID>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T18:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>ALLANBURG TS 45-Q28A</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
+<EquipmentName>A1B.AGXKI</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>ALLANBURG TS SS2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
+<EquipmentName>A1B.KIXTE</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>ALLANBURG TS T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
+<EquipmentName>A5A.AGXSC</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>ALLANBURG TS T2-H1</EquipmentName>
+<EquipmentName>A5A.ALXMI</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>A5A.SCXMI</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>A5A.SCXSC</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>AGUASABON SS 27-A1B</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
+<EquipmentRequested>
+<EquipmentName>AGUASABON SS 27-A5A</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>ALEXANDER SS 4-A5A</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MINNOVA JCT A5A-1202</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>SCHREIBER WINNIPEG DS 2 34T1-L</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TERRACE BAY SS 77T1M</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TERRACE BAY SS A1B-1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TERRACE BAY SS T1M-S</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>3 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00280476</OutageID>
@@ -2950,105 +2389,6 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00280870</OutageID>
-<PlannedStart>2025-06-01T06:15:00</PlannedStart>
-<PlannedEnd>2025-07-11T16:00:00</PlannedEnd>
-<Priority>FE</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>B5.ABXTH</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.BIXWA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.JAXAB</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.JAXTB</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.STXJA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.WAXFO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B5.WAXST</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BIRCH TS 17-Q5B</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BIRCH TS AL5</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BIRCH TS L5L6</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>ERCO JCT Q5B-1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>FORT WILLIAM TS T6-Q5B</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>JAMES STREET JCT 55B5-30</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>THUNDER BAY SS 30-B5</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>THUNDER BAY SS 30B5-B14</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00281183</OutageID>
 <PlannedStart>2025-05-27T08:00:00</PlannedStart>
 <PlannedEnd>2025-07-16T16:00:00</PlannedEnd>
@@ -3064,75 +2404,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00281214</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>B501M.BBXBJ</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B501M.BJXWJ</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>B501M.WJXMI</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00281459</OutageID>
-<PlannedStart>2025-06-02T08:15:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CHATS FALLS TS 2-P33C</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHATS FALLS TS DL33</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHATS FALLS TS L22L33</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>CHATS FALLS TS L33_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>P33C.CFXPA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Day(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00281603</OutageID>
 <PlannedStart>2025-04-05T16:00:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:01:00</PlannedEnd>
+<PlannedEnd>2025-08-29T16:01:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -3166,40 +2440,76 @@
 <OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00281628</OutageID>
-<PlannedStart>2025-06-23T01:45:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>K7K: RABBIT LAKE SS x KENORA TS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00281684</OutageID>
-<PlannedStart>2025-06-02T04:15:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
+<OutageID>1-00281629</OutageID>
+<PlannedStart>2025-07-08T09:30:00</PlannedStart>
+<PlannedEnd>2025-08-08T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>DUFFERIN TS T4</EquipmentName>
+<EquipmentName>RABBIT LAKE SS 15-K6F</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>RABBIT LAKE SS 15M1-L1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>RABBIT LAKE SS 15M1-L6</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>RABBIT LAKE SS HL6</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>RABBIT LAKE SS HL6_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>RABBIT LAKE SS L1L6</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>5 Day(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00281652</OutageID>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T18:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>SCHREIBER WINNIPEG DS 2 T1</EquipmentName>
 <EquipmentType>PowerTransformer</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>DUFFERIN TS T4-H2</EquipmentName>
+<EquipmentName>SCHREIBER WINNIPEG DS 2 T1-B</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>SCHREIBER WINNIPEG DS 2 T1L-X</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
+<OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00281741</OutageID>
@@ -3217,30 +2527,180 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00281844</OutageID>
-<PlannedStart>2025-05-20T10:15:00</PlannedStart>
-<PlannedEnd>2025-07-11T16:00:00</PlannedEnd>
-<Priority>FE</Priority>
+<OutageID>1-00281864</OutageID>
+<PlannedStart>2025-06-27T12:00:00</PlannedStart>
+<PlannedEnd>2025-07-31T10:00:00</PlannedEnd>
+<Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>BILBERRY CREEK TS T2</EquipmentName>
+<EquipmentName>K40M: SANDUSK SS x MIDDLEPORT TS</EquipmentName>
+<EquipmentType>Line</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>PROT OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L28L40</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L33L40</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>20 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00281871</OutageID>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 52-T1</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 52-T2</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 89-LM1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 89-T1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 89-T2</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS T1</EquipmentName>
 <EquipmentType>PowerTransformer</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>BILBERRY CREEK TS T2-A</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
+<EquipmentName>BELL CREEK CTS T2</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00281878</OutageID>
+<PlannedStart>2025-07-02T07:00:00</PlannedStart>
+<PlannedEnd>2025-08-20T17:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>Q25BM: BECK 2 TS x MIDDLEPORT TS</EquipmentName>
+<EquipmentType>Line</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>PROT OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
+<OutageID>1-00281883</OutageID>
+<PlannedStart>2025-06-27T12:00:00</PlannedStart>
+<PlannedEnd>2025-07-31T10:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>K40M: SANDUSK SS x MIDDLEPORT TS</EquipmentName>
+<EquipmentType>Line</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>PROT OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L28L40</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>MIDDLEPORT TS L33L40</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>20 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00281893</OutageID>
+<PlannedStart>2025-07-12T16:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T17:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 52-T1</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 52-T2</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 89-LM1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 89-T1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS 89-T2</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS T1</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BELL CREEK CTS T2</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
 <OutageID>1-00281916</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -3260,8 +2720,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00282052</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -3332,33 +2792,6 @@
 </EquipmentRequested>
 <EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00282679</OutageID>
-<PlannedStart>2025-06-19T06:30:00</PlannedStart>
-<PlannedEnd>2025-06-25T14:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>HINCHEY TS T4</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HINCHEY TS T4-A1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HINCHEY TS T4Z</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00282683</OutageID>
@@ -3751,57 +3184,6 @@
 <OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00282932</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>M32W.IJXKA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M32W.NEXMI</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M32W.SAXBU</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M32W.SAXNE</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M33W.NEXCA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M33W.SAXBU</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>M33W.SAXNE</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00283057</OutageID>
 <PlannedStart>2025-06-16T01:45:00</PlannedStart>
 <PlannedEnd>2025-08-17T11:00:00</PlannedEnd>
@@ -3817,30 +3199,9 @@
 <OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00283059</OutageID>
-<PlannedStart>2025-06-21T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-24T17:30:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ESPLANADE TS 36-C7E</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>TERAULEY TS 1C7E-36</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00283088</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T17:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T17:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -3910,19 +3271,19 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00283193</OutageID>
-<PlannedStart>2025-06-23T02:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T15:30:00</PlannedEnd>
+<OutageID>1-00283207</OutageID>
+<PlannedStart>2025-06-26T10:30:00</PlannedStart>
+<PlannedEnd>2025-07-25T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>GARTSHO1.2</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
+<EquipmentName>HANMER TS W6L502</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
+<EquipmentRecallTime>20 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00283208</OutageID>
@@ -3942,7 +3303,7 @@
 <OutageRequest>
 <OutageID>1-00283241</OutageID>
 <PlannedStart>2025-04-30T03:00:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:00:00</PlannedEnd>
+<PlannedEnd>2025-08-04T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -3973,24 +3334,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00283405</OutageID>
-<PlannedStart>2025-06-02T16:00:00</PlannedStart>
-<PlannedEnd>2025-07-03T08:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>KIPLING JCT 297H22D-MSO</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Immediate</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00283545</OutageID>
 <PlannedStart>2025-05-02T16:00:00</PlannedStart>
-<PlannedEnd>2025-07-03T16:01:00</PlannedEnd>
+<PlannedEnd>2025-07-18T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -4035,8 +3381,8 @@
 <OutageRequest>
 <OutageID>1-00283849</OutageID>
 <PlannedStart>2025-06-02T09:15:00</PlannedStart>
-<PlannedEnd>2025-07-14T16:00:00</PlannedEnd>
-<Priority>P</Priority>
+<PlannedEnd>2025-09-20T16:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>K21W.WHXKE</EquipmentName>
@@ -4054,169 +3400,37 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00283850</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-26T15:00:00</PlannedEnd>
+<OutageID>1-00283883</OutageID>
+<PlannedStart>2025-07-08T10:30:00</PlannedStart>
+<PlannedEnd>2025-08-08T18:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>HUNTA SS L3L9</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00283890</OutageID>
-<PlannedStart>2025-06-23T10:30:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1305</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1335</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1336</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1341</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1342</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1343</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1353</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1356</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1359</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 2_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00283891</OutageID>
-<PlannedStart>2025-06-23T12:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T12:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ANJIGAMI TS 844</EquipmentName>
+<EquipmentName>STEWARTVILLE TS AL3</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>DA WATSON TS 1304</EquipmentName>
+<EquipmentName>STEWARTVILLE TS AL6</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>DA WATSON TS 1306</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>GL1.ANXWA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HIGHFAL2.AGXAJ</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HIGHFAL2.AJXDA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HIGHFAL2.AJXWA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HIGHWAY 101 TS 1045</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WAWA TS 14-GL1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WAWA TS DL1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WAWA TS DL1_BUS</EquipmentName>
+<EquipmentName>STEWARTVILLE TS A_BUS</EquipmentName>
 <EquipmentType>Bus</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
+<EquipmentRequested>
+<EquipmentName>STEWARTVILLE TS T6-A</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00283992</OutageID>
@@ -4252,24 +3466,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00283998</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-07-10T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ATLANTIC PACKAGING CTS T2-T24C</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00284013</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -4373,8 +3572,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00284015</OutageID>
-<PlannedStart>2025-06-23T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T09:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -4403,62 +3602,11 @@
 </EquipmentRequested>
 <EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284016</OutageID>
-<PlannedStart>2025-06-03T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN JCT 321L14W-32</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN JCT 321L14W-34</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN TS 31T14-L14W</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN TS 31T15-L14W</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN TS P_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN TS T14</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDGMAN TS T15</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00284037</OutageID>
-<PlannedStart>2025-06-23T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T09:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -4486,51 +3634,12 @@
 <ConstraintType>HOLDOFF</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284070</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS R4</EquipmentName>
-<EquipmentType>Reactor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS SS4</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS T4</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS T4-H</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>500 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS T4-LT4</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>5 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00284126</OutageID>
 <PlannedStart>2025-04-22T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-30T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-29T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -4564,78 +3673,9 @@
 <OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00284170</OutageID>
-<PlannedStart>2025-06-23T01:15:00</PlannedStart>
-<PlannedEnd>2025-06-23T13:30:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ST. LAWRENCE TS H1H2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284203</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>L28C.GJXGS</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L28C.LAXGJ</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L28C.LYXCH</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L28C.LYXGJ</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L28C.LYXKE</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284428</OutageID>
-<PlannedStart>2025-06-16T06:15:00</PlannedStart>
-<PlannedEnd>2025-06-26T14:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS 605S7M-LC</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00284454</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -4678,36 +3718,6 @@
 <OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00284499</OutageID>
-<PlannedStart>2025-05-14T13:02:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>MINDEN TS HL80</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284530</OutageID>
-<PlannedStart>2025-06-23T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T14:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>Q21P: BECK 2 TS x SIR ADAM BECK PGS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00284597</OutageID>
 <PlannedStart>2025-06-17T16:00:00</PlannedStart>
 <PlannedEnd>2025-12-31T18:00:00</PlannedEnd>
@@ -4729,144 +3739,30 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00284661</OutageID>
-<PlannedStart>2025-06-23T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<OutageID>1-00284719</OutageID>
+<PlannedStart>2025-07-07T06:15:00</PlannedStart>
+<PlannedEnd>2025-07-24T16:00:00</PlannedEnd>
 <Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>H75.LKXSM</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>H76.LKXSM</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284670</OutageID>
-<PlannedStart>2025-06-10T09:15:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:30:00</PlannedEnd>
-<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>WILTSHIRE TS 32-K3W</EquipmentName>
+<EquipmentName>D11K.DEXK1</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>DETWEILER TS 26-D11K</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS H2H3</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS H3_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS SC1</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS SC2</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS SC3</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS SS2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T6</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T6-H</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T7</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T7-H3</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T7A11</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T7A12</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T7A13</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>WILTSHIRE TS T7A14</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00284675</OutageID>
-<PlannedStart>2025-06-14T12:15:00</PlannedStart>
-<PlannedEnd>2025-06-27T12:00:00</PlannedEnd>
-<Priority>O</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>N6M: NANTICOKE TS x MIDDLEPORT TS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00284786</OutageID>
 <PlannedStart>2025-05-19T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-30T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -4880,8 +3776,8 @@
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00284823</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -4900,46 +3796,85 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00284840</OutageID>
-<PlannedStart>2025-06-09T06:00:00</PlannedStart>
-<PlannedEnd>2025-07-14T18:30:00</PlannedEnd>
-<Priority>P</Priority>
+<OutageID>1-00284926</OutageID>
+<PlannedStart>2025-07-08T07:30:00</PlannedStart>
+<PlannedEnd>2025-07-14T16:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>CLERGUE TS 148</EquipmentName>
+<EquipmentName>LEAMINGTON TS 393T4-H39</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEAMINGTON TS BY</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEAMINGTON TS T4</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEAMINGTON TS T4B</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
 <EquipmentVoltage>50 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<EquipmentRequested>
+<EquipmentName>LEAMINGTON TS T4Y</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00284947</OutageID>
-<PlannedStart>2025-05-22T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>I</Priority>
+<OutageID>1-00284938</OutageID>
+<PlannedStart>2025-07-10T08:30:00</PlannedStart>
+<PlannedEnd>2025-07-17T16:00:00</PlannedEnd>
+<Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>K4W.MIXWH</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>INFO</ConstraintType>
+<EquipmentName>H54Z: LAKESHORE TS x WINDSOR LAUZON TS</EquipmentName>
+<EquipmentType>Line</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>PROT OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00284952</OutageID>
+<PlannedStart>2025-07-12T06:30:00</PlannedStart>
+<PlannedEnd>2025-07-15T16:30:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>PRESTON TS SSJ</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>K4W.RAXMI</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>INFO</ConstraintType>
+<EquipmentName>PRESTON TS SSJ-FX</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>SUB</OutageRequestStatus>
+<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00284985</OutageID>
 <PlannedStart>2025-06-03T02:15:00</PlannedStart>
-<PlannedEnd>2025-07-22T16:00:00</PlannedEnd>
-<Priority>I</Priority>
+<PlannedEnd>2025-08-27T16:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>JOHN TS T2-K</EquipmentName>
@@ -4951,30 +3886,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00285022</OutageID>
-<PlannedStart>2025-06-23T13:30:00</PlannedStart>
-<PlannedEnd>2025-06-25T17:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CRYSTAL FALLS SS 7-L5H</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>NORTH BAY TS 15L5H-A1</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>5 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00285274</OutageID>
 <PlannedStart>2025-05-25T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-30T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-14T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -4999,24 +3913,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00285313</OutageID>
-<PlannedStart>2025-05-26T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS K2_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00285351</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T18:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T18:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -5035,60 +3934,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00285475</OutageID>
-<PlannedStart>2025-06-16T06:15:00</PlannedStart>
-<PlannedEnd>2025-06-26T14:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS 605-S7M</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS BRDCST1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS BRDCST1-L</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS BRDCST2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS BRDCST2-L</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BRIDLEWOOD MTS T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00285504</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -5131,45 +3979,36 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00285594</OutageID>
-<PlannedStart>2025-06-23T02:30:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
+<OutageID>1-00285699</OutageID>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T18:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>STRATFORD TS T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
+<EquipmentName>AGUASABON SS K2_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>AGUASABON SS T1L1</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>AGUASABON SS T1L5</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00285748</OutageID>
-<PlannedStart>2025-06-01T06:33:00</PlannedStart>
-<PlannedEnd>2025-07-11T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>HAWTHORNE TS SC22</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>HAWTHORNE TS SC22SC</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
+<OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00285815</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>O</Priority>
 <Recurrence>NC</Recurrence>
 <EquipmentRequested>
@@ -5192,6 +4031,39 @@
 </EquipmentRequested>
 <EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
 <OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00285865</OutageID>
+<PlannedStart>2025-06-30T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-25T16:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 6 K6T11-M21D</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 6 T11</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 6 T111B</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 6 T112B</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00285867</OutageID>
@@ -5221,40 +4093,10 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00285887</OutageID>
-<PlannedStart>2025-06-15T16:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>REXDALE TS SC3</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00285892</OutageID>
-<PlannedStart>2025-06-23T07:30:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CHATS FALLS TS L22L33</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00286007</OutageID>
 <PlannedStart>2025-06-12T16:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>O</Priority>
+<PlannedEnd>2025-07-18T16:00:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>MANBY EAST TS L1L23</EquipmentName>
@@ -5266,31 +4108,43 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00286108</OutageID>
-<PlannedStart>2025-06-17T06:00:00</PlannedStart>
-<PlannedEnd>2025-07-08T16:00:00</PlannedEnd>
-<Priority>FE</Priority>
+<OutageID>1-00286114</OutageID>
+<PlannedStart>2025-07-11T16:45:00</PlannedStart>
+<PlannedEnd>2025-07-15T16:30:00</PlannedEnd>
+<Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>CREIGHTON JCT 52S2B-32</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>IS</ConstraintType>
+<EquipmentName>HIGHWAY 101 TS 1045</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>MARTINDALE TS 9-S5M</EquipmentName>
+<EquipmentName>WAWA TS D-TEMP1</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>ONAPING JCT 999S5M-92</EquipmentName>
+<EquipmentName>WAWA TS DL1</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>WAWA TS DL1-MSO</EquipmentName>
 <EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>5 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
+<EquipmentRequested>
+<EquipmentName>WAWA TS TEMPDL1 BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>6 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00286129</OutageID>
@@ -5310,7 +4164,7 @@
 <OutageRequest>
 <OutageID>1-00286152</OutageID>
 <PlannedStart>2025-06-06T09:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5356,30 +4210,9 @@
 <OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00286237</OutageID>
-<PlannedStart>2025-06-08T14:41:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS SC25</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS SC25A</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00286384</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
 <Priority>P</Priority>
 <Recurrence>RE</Recurrence>
 <EquipmentRequested>
@@ -5395,100 +4228,46 @@
 <ConstraintType>HOLDOFF</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00286409</OutageID>
-<PlannedStart>2025-06-18T12:00:00</PlannedStart>
-<PlannedEnd>2025-07-03T14:30:00</PlannedEnd>
-<Priority>P</Priority>
+<OutageID>1-00286399</OutageID>
+<PlannedStart>2025-07-04T16:45:00</PlannedStart>
+<PlannedEnd>2025-07-17T12:15:00</PlannedEnd>
+<Priority>FE</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A1 CB1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
+<EquipmentName>PORCUPINE TS T6</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T6-H2</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T6-K4</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T6-SS1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>50 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A1 CB2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A2 CB1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A2 CB2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A3 CB1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A3 CB2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A4 CB1</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS T3-A4 CB2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286412</OutageID>
-<PlannedStart>2025-06-09T09:10:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>LONGWOOD TS R4</EquipmentName>
-<EquipmentType>Reactor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
+<EquipmentName>PORCUPINE TS TEMPH1-BO2</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286504</OutageID>
-<PlannedStart>2025-06-13T06:30:00</PlannedStart>
-<PlannedEnd>2025-06-25T14:30:00</PlannedEnd>
-<Priority>O</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS (NQ8192) T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>COPELAND MTS (NQ8192) T4</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>12 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00286536</OutageID>
@@ -5506,36 +4285,6 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00286703</OutageID>
-<PlannedStart>2025-06-23T09:15:00</PlannedStart>
-<PlannedEnd>2025-06-25T12:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CLARINGTON TS L24L25</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>BF PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286707</OutageID>
-<PlannedStart>2025-06-23T09:15:00</PlannedStart>
-<PlannedEnd>2025-06-25T12:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>CLARINGTON TS P1L24</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>BF PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00286716</OutageID>
 <PlannedStart>2025-06-12T09:41:00</PlannedStart>
 <PlannedEnd>2025-08-08T16:00:00</PlannedEnd>
@@ -5551,138 +4300,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00286784</OutageID>
-<PlannedStart>2025-06-23T06:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>RE</Recurrence>
-<EquipmentRequested>
-<EquipmentName>L24L.LOXLA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L24L.LOXLO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L26L.LOXLA</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>L26L.LOXLO</EquipmentName>
-<EquipmentType>LineSection</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>HOLDOFF</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286799</OutageID>
-<PlannedStart>2025-06-16T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ARMITAGE TS SC3</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286828</OutageID>
-<PlannedStart>2025-06-23T08:00:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>STEWARTVILLE GS T4-D</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>STEWARTVILLE GS T5-D</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286865</OutageID>
-<PlannedStart>2025-06-23T10:30:00</PlannedStart>
-<PlannedEnd>2025-06-23T10:40:00</PlannedEnd>
-<Priority>O</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1329</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1334</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1335</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS 1_BUS</EquipmentName>
-<EquipmentType>Bus</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>DA WATSON TS T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Immediate</EquipmentRecallTime>
-<OutageRequestStatus>AA</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00286875</OutageID>
-<PlannedStart>2025-06-23T04:00:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
-<Priority>P</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>ARNPRIOR TS T3</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>W6CS: STEWARTVILLE TS x SOUTHMARCH SS</EquipmentName>
-<EquipmentType>Line</EquipmentType>
-<EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>PROT OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00286894</OutageID>
 <PlannedStart>2025-06-17T13:47:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedEnd>2025-12-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5709,7 +4329,7 @@
 <OutageRequest>
 <OutageID>1-00286917</OutageID>
 <PlannedStart>2025-03-14T11:00:00</PlannedStart>
-<PlannedEnd>2025-07-04T16:00:00</PlannedEnd>
+<PlannedEnd>2025-10-30T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5737,57 +4357,75 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00286997</OutageID>
-<PlannedStart>2025-06-20T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-28T17:00:00</PlannedEnd>
-<Priority>U</Priority>
+<OutageID>1-00286970</OutageID>
+<PlannedStart>2025-07-12T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T06:15:00</PlannedEnd>
+<Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>SEATON MTS #1 9494-C10A</EquipmentName>
-<EquipmentType>Disconnect</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
+<EquipmentName>AGUASABON SS K2_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>SEATON MTS #1 T1</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>SEATON MTS #1 T1J</EquipmentName>
+<EquipmentName>AGUASABON SS T1L1</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRequested>
-<EquipmentName>SEATON MTS #1 T1Z</EquipmentName>
+<EquipmentName>AGUASABON SS T1L5</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>7 Day(s)</EquipmentRecallTime>
+<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
 <OutageRequestStatus>FA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00287035</OutageID>
-<PlannedStart>2025-06-23T07:00:00</PlannedStart>
-<PlannedEnd>2025-06-24T14:00:00</PlannedEnd>
-<Priority>O</Priority>
+<OutageID>1-00287050</OutageID>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-13T16:00:00</PlannedEnd>
+<Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>GERDAU WHITBY CTS T4-HT4</EquipmentName>
+<EquipmentName>LEASIDE TS A16L-10</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS A5L-26</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS A6L-17</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS Q1Q2</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
 <EquipmentVoltage>50 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>2 Hour(s)</EquipmentRecallTime>
-<OutageRequestStatus>FA</OutageRequestStatus>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS Q2_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
 <OutageID>1-00287176</OutageID>
 <PlannedStart>2025-06-19T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-25T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5800,18 +4438,18 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00287194</OutageID>
-<PlannedStart>2025-06-19T17:42:00</PlannedStart>
-<PlannedEnd>2025-06-26T17:43:00</PlannedEnd>
-<Priority>F</Priority>
+<OutageID>1-00287180</OutageID>
+<PlannedStart>2025-06-24T08:00:00</PlannedStart>
+<PlannedEnd>2025-08-31T16:00:00</PlannedEnd>
+<Priority>P</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>RED LAKE TS SC2</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
+<EquipmentName>T1M.PIXMA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
 </EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
@@ -5845,24 +4483,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00287319</OutageID>
-<PlannedStart>2025-06-21T08:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>SIDNEY TS SC2</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00287320</OutageID>
 <PlannedStart>2025-06-21T08:11:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5877,7 +4500,7 @@
 <OutageRequest>
 <OutageID>1-00287327</OutageID>
 <PlannedStart>2025-06-21T11:29:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<PlannedEnd>2025-08-22T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5892,7 +4515,7 @@
 <OutageRequest>
 <OutageID>1-00287331</OutageID>
 <PlannedStart>2025-06-21T14:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -5913,43 +4536,13 @@
 <OutageRequest>
 <OutageID>1-00287351</OutageID>
 <PlannedStart>2025-06-22T04:14:00</PlannedStart>
-<PlannedEnd>2025-06-24T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-25T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
 <EquipmentName>DETWEILER TS T4L8</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
 <EquipmentVoltage>115 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00287359</OutageID>
-<PlannedStart>2025-06-22T10:00:00</PlannedStart>
-<PlannedEnd>2025-06-27T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BERMONDSEY TS SC4</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>50 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
-<OutageID>1-00287361</OutageID>
-<PlannedStart>2025-06-22T10:31:00</PlannedStart>
-<PlannedEnd>2025-06-26T11:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>DETOUR LAKE CTS T2</EquipmentName>
-<EquipmentType>PowerTransformer</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
@@ -5971,36 +4564,9 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00287416</OutageID>
-<PlannedStart>2025-06-19T14:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
-<Priority>F</Priority>
-<Recurrence>C</Recurrence>
-<EquipmentRequested>
-<EquipmentName>BURLINGTON TS SC22</EquipmentName>
-<EquipmentType>Capacitor</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BURLINGTON TS SC22H2</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRequested>
-<EquipmentName>BURLINGTON TS SC22SC</EquipmentName>
-<EquipmentType>Breaker</EquipmentType>
-<EquipmentVoltage>230 kV</EquipmentVoltage>
-<ConstraintType>OOS</ConstraintType>
-</EquipmentRequested>
-<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
-<OutageRequestStatus>IMPL</OutageRequestStatus>
-</OutageRequest>
-<OutageRequest>
 <OutageID>1-00287417</OutageID>
 <PlannedStart>2025-06-22T20:00:00</PlannedStart>
-<PlannedEnd>2025-06-25T16:00:00</PlannedEnd>
+<PlannedEnd>2025-07-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
@@ -6019,15 +4585,627 @@
 <OutageRequestStatus>IMPL</OutageRequestStatus>
 </OutageRequest>
 <OutageRequest>
-<OutageID>1-00287428</OutageID>
-<PlannedStart>2025-06-23T02:00:00</PlannedStart>
-<PlannedEnd>2025-06-23T16:00:00</PlannedEnd>
+<OutageID>1-00287980</OutageID>
+<PlannedStart>2025-07-12T07:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T17:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>RE</Recurrence>
+<EquipmentRequested>
+<EquipmentName>X22.GRXLE</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Immediate</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288058</OutageID>
+<PlannedStart>2025-06-26T13:30:00</PlannedStart>
+<PlannedEnd>2025-07-31T16:00:00</PlannedEnd>
 <Priority>F</Priority>
 <Recurrence>C</Recurrence>
 <EquipmentRequested>
-<EquipmentName>CHERRYWOOD TS HL552</EquipmentName>
+<EquipmentName>GERRARD TS JA2</EquipmentName>
 <EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288064</OutageID>
+<PlannedStart>2025-06-26T17:00:00</PlannedStart>
+<PlannedEnd>2025-08-12T17:01:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>LONGWOOD TS T7D</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288091</OutageID>
+<PlannedStart>2025-06-27T09:20:00</PlannedStart>
+<PlannedEnd>2025-08-31T23:59:00</PlannedEnd>
+<Priority>U</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BRUCE B SS P-P5</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
 <EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BRUCE B SS P-P7</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>IS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288112</OutageID>
+<PlannedStart>2025-07-08T06:30:00</PlannedStart>
+<PlannedEnd>2025-07-16T16:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>HORNER TS SC3</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>HORNER TS SC4</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288114</OutageID>
+<PlannedStart>2025-06-26T16:00:00</PlannedStart>
+<PlannedEnd>2025-12-31T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BRIDLEWOOD MTS BRDCST2</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BRIDLEWOOD MTS BRDCST2-L</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BRIDLEWOOD MTS T2</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288183</OutageID>
+<PlannedStart>2025-07-03T08:00:00</PlannedStart>
+<PlannedEnd>2025-08-12T16:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>FORD ANNEX MTS T1-E8F</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288184</OutageID>
+<PlannedStart>2025-06-28T09:41:00</PlannedStart>
+<PlannedEnd>2025-08-12T14:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>FORD ANNEX MTS T1</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288185</OutageID>
+<PlannedStart>2025-06-28T08:03:00</PlannedStart>
+<PlannedEnd>2025-08-12T14:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>FORD ANNEX MTS T1</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>8 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288213</OutageID>
+<PlannedStart>2025-03-26T14:43:00</PlannedStart>
+<PlannedEnd>2025-08-01T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BERMONDSEY TS SC2</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288214</OutageID>
+<PlannedStart>2025-06-26T09:50:00</PlannedStart>
+<PlannedEnd>2025-12-19T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BIRCH TS L15-R11</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BIRCH TS SC11</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BIRCH TS SC11R11</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BIRCH TS SC11SC</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288372</OutageID>
+<PlannedStart>2025-07-02T11:53:00</PlannedStart>
+<PlannedEnd>2025-07-25T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BRAMALEA TS SC3</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288374</OutageID>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T16:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>RE</Recurrence>
+<EquipmentRequested>
+<EquipmentName>P5M.POXCO</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>1 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288399</OutageID>
+<PlannedStart>2025-07-02T23:00:00</PlannedStart>
+<PlannedEnd>2025-07-30T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>ERINDALE TS SC4</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288421</OutageID>
+<PlannedStart>2025-07-09T09:00:00</PlannedStart>
+<PlannedEnd>2025-09-02T10:00:00</PlannedEnd>
+<Priority>O</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>LENNOX TS T51</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>PROT OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>15 Min(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288423</OutageID>
+<PlannedStart>2025-07-03T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-25T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS SC14</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS SC14KSC14</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>LEASIDE TS SC14SC</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288469</OutageID>
+<PlannedStart>2025-07-03T14:00:00</PlannedStart>
+<PlannedEnd>2030-12-31T16:00:00</PlannedEnd>
+<Priority>I</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>ST. LAWRENCE TS L33_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>INFO</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>ST. LAWRENCE TS L34_BUS</EquipmentName>
+<EquipmentType>Bus</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>INFO</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>SUB</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288512</OutageID>
+<PlannedStart>2025-07-04T05:02:00</PlannedStart>
+<PlannedEnd>2025-07-17T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BERMONDSEY TS SC4</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288556</OutageID>
+<PlannedStart>2025-07-08T08:00:00</PlannedStart>
+<PlannedEnd>2025-07-12T18:00:00</PlannedEnd>
+<Priority>O</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>B31L.IPXLA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>B5D-B31L SS JCT B5D-B31L</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>ST. ISIDORE TS T2J</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>ST. LAWRENCE TS 49-B31L</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>ST. LAWRENCE TS B31L-D</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>4 Hour(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288560</OutageID>
+<PlannedStart>2025-07-07T10:32:00</PlannedStart>
+<PlannedEnd>2025-07-24T16:00:00</PlannedEnd>
+<Priority>U</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 1 K1T2-D11K</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 4 K4T8-D11K</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>KITCHENER MTS 4 T8</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>FA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288617</OutageID>
+<PlannedStart>2025-07-05T18:16:00</PlannedStart>
+<PlannedEnd>2025-07-14T18:17:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>BURLINGTON TS SC11</EquipmentName>
+<EquipmentType>Capacitor</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>BURLINGTON TS SC11SC</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288628</OutageID>
+<PlannedStart>2025-07-07T00:00:00</PlannedStart>
+<PlannedEnd>2025-07-13T23:59:00</PlannedEnd>
+<Priority>O</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>KAPUSKASING TS L1L9</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Immediate</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288794</OutageID>
+<PlannedStart>2025-07-09T06:00:00</PlannedStart>
+<PlannedEnd>2025-07-18T16:00:00</PlannedEnd>
+<Priority>O</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>Q24HM.HAXBE</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>Q24HM.HAXHA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>Q24HM.HNXHA</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>Q24HM.HNXMI</EquipmentName>
+<EquipmentType>LineSection</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>HOLDOFF</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>30 Min(s)</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288837</OutageID>
+<PlannedStart>2025-07-08T16:57:00</PlannedStart>
+<PlannedEnd>2025-09-30T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>ISLAND FALLS CGS IS G3</EquipmentName>
+<EquipmentType>GeneratingUnit</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288917</OutageID>
+<PlannedStart>2025-07-12T08:00:00</PlannedStart>
+<PlannedEnd>2025-10-31T16:00:00</PlannedEnd>
+<Priority>P</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 2002A-L</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 52-T1</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 52-T2</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 52-T3</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 89-1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 89-2</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS 89-3</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS T1</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS T2</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>TCPL COBOURG CTS T3</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>AA</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00288926</OutageID>
+<PlannedStart>2025-07-09T20:00:00</PlannedStart>
+<PlannedEnd>2025-07-18T14:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>CECIL TS PL12</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>2 Day(s)</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00289035</OutageID>
+<PlannedStart>2025-07-10T16:39:00</PlannedStart>
+<PlannedEnd>2025-07-14T16:40:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>OSHAWA GM TS 142-T24C</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00289124</OutageID>
+<PlannedStart>2025-07-11T04:21:00</PlannedStart>
+<PlannedEnd>2025-07-16T16:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T5</EquipmentName>
+<EquipmentType>PowerTransformer</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T5-H1</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>500 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T5-K2</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>115 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRequested>
+<EquipmentName>PORCUPINE TS T5-SS5</EquipmentName>
+<EquipmentType>Disconnect</EquipmentType>
+<EquipmentVoltage>50 kV</EquipmentVoltage>
+<ConstraintType>OOS</ConstraintType>
+</EquipmentRequested>
+<EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
+<OutageRequestStatus>IMPL</OutageRequestStatus>
+</OutageRequest>
+<OutageRequest>
+<OutageID>1-00289146</OutageID>
+<PlannedStart>2025-07-12T02:49:00</PlannedStart>
+<PlannedEnd>2025-07-14T12:00:00</PlannedEnd>
+<Priority>F</Priority>
+<Recurrence>C</Recurrence>
+<EquipmentRequested>
+<EquipmentName>CHERRYWOOD TS KL27</EquipmentName>
+<EquipmentType>Breaker</EquipmentType>
+<EquipmentVoltage>230 kV</EquipmentVoltage>
 <ConstraintType>OOS</ConstraintType>
 </EquipmentRequested>
 <EquipmentRecallTime>Non-recallable</EquipmentRecallTime>
