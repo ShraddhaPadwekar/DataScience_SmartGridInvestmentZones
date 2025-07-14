@@ -8,10 +8,10 @@ This project develops a data-driven Smart Grid Readiness Index (SGRI) to evaluat
 
 - **README.md** – Project overview, methodology, and structure
 - **Padwekar_Shraddha_InitialResults.ipynb** – Jupyter notebook containing all analysis, 12 experiments, 1 Reaserch question, modeling, and scoring [[View the implementation]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/blob/main/JupyterNotebooks/Padwekar_Shraddha_InitialResults.ipynb)
-- **Padwekar_Shraddha_InitialResults.pdf** – Final technical report including summaries, insights, and conclusions [[View the documnnet]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/blob/main/Documents/Padwekar_Shraddha_InitialResults.pdf)
+- **Padwekar_Shraddha_InitialResults.pdf** – Final technical report including summaries, insights, and conclusions [[View the document]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/blob/main/Documents/Padwekar_Shraddha_InitialResults.pdf)
 - **Padwekar_Shraddha_LitReview.pdf** – Methodology and data-driven approach through a deep review of relevant academic and operational literature [[View the document]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/blob/main/Documents/Padwekar_Shraddha_LitReview.pdf)
-- **dataset.md** – Detailed descriptions of all IESO datasets used in the analysis
-- **dataset** – Folder for CSV/XML source datasets from IESO
+- **dataset.md** – Detailed descriptions of all IESO datasets used in the analysis [[View the details]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/blob/main/dataset.md)
+- **dataset** – Folder for CSV/XML source datasets from IESO [[View the dataset in CSV/XML ]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/tree/main/Dataset)
 
 ## Project Stages
 
