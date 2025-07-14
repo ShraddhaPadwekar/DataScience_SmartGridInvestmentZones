@@ -75,6 +75,10 @@ While related literature has explored individual indicators—such as AHP-based 
 
 All datasets are sourced from the Independent Electricity System Operator (IESO) and cover Jan–Jul 2025.
 
+## Project Implementation
+[[View the Implementation]](https://github.com/ShraddhaPadwekar/DataScience_SmartGridInvestmentZones/blob/main/JupyterNotebooks/Padwekar_Shraddha_InitialResults.ipynb)
+
+
 ## Acknowledgments
 This project was developed by **Shraddha Padwekar**
 
