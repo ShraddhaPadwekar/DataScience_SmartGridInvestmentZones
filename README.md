@@ -6,11 +6,13 @@ This project develops a data-driven Smart Grid Readiness Index (SGRI) to evaluat
 
 ## Repository Contents
 
-- `README.md` – Project overview, methodology, and structure
-- `Padwekar_Shraddha_InitialResults.ipynb` – Jupyter notebook containing all analysis, 12 experiments, modeling, and scoring
-- `Padwekar_Shraddha_InitialResults.docx` – Final technical report including summaries, insights, and conclusions
-- `dataset.md` – Detailed descriptions of all IESO datasets used in the analysis
-- `dataset` – Folder for CSV/XML source datasets from IESO
+- **README.md** – Project overview, methodology, and structure
+- **Padwekar_Shraddha_InitialResults.ipynb** – Jupyter notebook containing all analysis, 12 experiments, 1 Reaserch question, modeling, and scoring 
+- **Padwekar_Shraddha_InitialResults.docx** – Final technical report including summaries, insights, and conclusions (in the documents folder)
+- **Padwekar_Shraddha_LitReview.docx** – Methodology and data-driven approach through a deep review of relevant academic and operational literature
+- **dataset.md** – Detailed descriptions of all IESO datasets used in the analysis
+- **dataset** – Folder for CSV/XML source datasets from IESO
+- 
 
 
 ## Project Stages
@@ -77,7 +79,9 @@ All datasets are sourced from the Independent Electricity System Operator (IESO)
 
 ## Acknowledgments
 This project was developed by **Shraddha Padwekar**
+
 Supervised by **Prof. Tamer Abdou**
+
 Toronto Metropolitan University, 2025
 
 Data provided by the Independent Electricity System Operator (IESO) of Ontario.
