@@ -12,8 +12,6 @@ This project develops a data-driven Smart Grid Readiness Index (SGRI) to evaluat
 - **Padwekar_Shraddha_LitReview.docx** – Methodology and data-driven approach through a deep review of relevant academic and operational literature
 - **dataset.md** – Detailed descriptions of all IESO datasets used in the analysis
 - **dataset** – Folder for CSV/XML source datasets from IESO
-- 
-
 
 ## Project Stages
 
